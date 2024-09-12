@@ -38,3 +38,40 @@
   height: auto;
   width: 300px; /* Exemple pour redimensionner toutes les images à une largeur de 300px */
 }
+
+.features {
+  padding: 2rem 0;
+}
+
+.featureGif {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.featureGif:hover {
+  transform: scale(1.05); /* Zoom léger au survol */
+}
+
+/* Style spécial pour le premier et le dernier élément */
+.specialImage {
+  border: 2px solid #2e8555; /* Bordure spéciale */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre plus visible */
+}
+.undefined{
+  
+  /* object-fit: cover; */
+  /* background-size: cover; */
+  /* border-radius: 10px; */ width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 10px;
+}
+.navbar__logo img {
+  height: 100%;
+  width: 80px; 
+  object-fit: cover; 
+  background-size: cover;
+}
