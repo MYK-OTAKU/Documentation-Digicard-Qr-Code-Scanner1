@@ -41,7 +41,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner1',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config = {
           },
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner1',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -67,9 +67,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Designer (1).jpeg',
       navbar: {
-        title: 'DigiCard',
+        title: 'DigiCard Docs',
         logo: {
           alt: 'DigiCard Logo',
           src: 'img/logo.avif',
@@ -83,7 +83,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner1',
             label: 'GitHub',
             position: 'right',
           },
