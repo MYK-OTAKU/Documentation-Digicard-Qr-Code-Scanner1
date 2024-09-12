@@ -24,7 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MYK-OTAKU', // Usually your GitHub org/user name.
   projectName: 'Documentation-Digicard-Qr-Code-Scanner', // Usually your repo name.
-
+  trailingSlash: false, // ajoute cette ligne pour éviter l'ajout automatique d'un slash à la fin des URLs
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
