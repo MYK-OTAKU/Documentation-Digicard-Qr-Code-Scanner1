@@ -6,7 +6,6 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DigiCard QR Code Scanner',
@@ -18,19 +17,16 @@ const config = {
   trailingSlash: false,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Documentation-Digicard-Qr-Code-Scanner/',
+  baseUrl: '/Documentation-Digicard-Qr-Code-Scanner1/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'MYK-OTAKU', // Usually your GitHub org/user name.
-  projectName: 'Documentation-Digicard-Qr-Code-Scanner', // Usually your repo name.
-  
+  organizationName: 'MYK-OTAKU', // Your GitHub org/user name.
+  projectName: 'Documentation-Digicard-Qr-Code-Scanner1', // Your repo name.
+  deploymentBranch: 'gh-pages',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-deploymentBranch : "gh-pages",
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -44,7 +40,6 @@ deploymentBranch : "gh-pages",
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -55,7 +50,6 @@ deploymentBranch : "gh-pages",
             xslt: true,
           },
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
@@ -73,7 +67,6 @@ deploymentBranch : "gh-pages",
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'DigiCard',
@@ -134,7 +127,7 @@ deploymentBranch : "gh-pages",
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-github-org/your-repo',
+                href: 'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner1',
               },
             ],
           },
@@ -147,6 +140,5 @@ deploymentBranch : "gh-pages",
       },
     }),
 };
-
 
 export default config;
