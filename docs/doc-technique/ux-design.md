@@ -1,6 +1,8 @@
 ---
 id: ux-design
 title: Conception UX
+sidebar_label: Conception UX
+
 ---
 
 # Conception UX

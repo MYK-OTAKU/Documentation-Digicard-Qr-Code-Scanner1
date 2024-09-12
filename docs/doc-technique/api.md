@@ -1,6 +1,7 @@
 ---
 id: api
 title: Documentation API
+sidebar_label: Documentation API
 ---
 
 # Documentation API
