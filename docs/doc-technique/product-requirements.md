@@ -1,6 +1,8 @@
 ---
 id: product-requirements
 title: Exigences produit
+sidebar_label: Exigences produit
+
 ---
 
 # Exigences Produit

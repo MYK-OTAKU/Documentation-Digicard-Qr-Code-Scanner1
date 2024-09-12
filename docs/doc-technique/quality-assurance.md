@@ -1,6 +1,8 @@
 ---
 id: quality-assurance
 title: Assurance qualité
+sidebar_label: Assurance qualité
+
 ---
 
 # Assurance qualité

@@ -1,6 +1,8 @@
 ---
 id: software-architecture
 title: Architecture Logicielle
+sidebar_label: Architecture Logicielle
+
 ---
 
 # Architecture logicielle

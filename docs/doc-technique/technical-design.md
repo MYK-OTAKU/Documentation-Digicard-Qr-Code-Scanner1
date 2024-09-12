@@ -1,6 +1,8 @@
 ---
 id: technical-design
-title: Conception technique
+title: 
+sidebar_label: Conception technique
+
 ---
 
 # Conception technique
