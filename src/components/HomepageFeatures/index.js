@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Analyse de Sécurité Intégrée',
-    Gif: require('@site/static/img/mm.gif').default,
+    Gif: require('@site/static/img/se.jpeg').default,
     description: (
       <>
         Scannez vos QR codes en toute sécurité. DigiCard utilise l'API VirusTotal
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Multiplateforme et Multilingue',
-    Gif: require('@site/static/img/mm.gif').default,
+    Gif: require('@site/static/img/pp.jpeg').default,
     description: (
       <>
         DigiCard est disponible sur plusieurs plateformes et supporte différentes
