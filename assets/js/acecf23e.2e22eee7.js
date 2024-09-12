@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdigicard_docs=self.webpackChunkdigicard_docs||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/Documentation-Digicard-Qr-Code-Scanner1/blog","blogTitle":"Blog","authorsListPath":"/Documentation-Digicard-Qr-Code-Scanner1/blog/authors"}')}}]);

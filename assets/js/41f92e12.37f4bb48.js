@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdigicard_docs=self.webpackChunkdigicard_docs||[]).push([[4443],{9034:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Documentation-Digicard-Qr-Code-Scanner/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
