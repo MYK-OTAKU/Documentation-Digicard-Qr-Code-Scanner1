@@ -4,8 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -24,7 +23,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MYK-OTAKU', // Usually your GitHub org/user name.
   projectName: 'Documentation-Digicard-Qr-Code-Scanner', // Usually your repo name.
-
+  trailingSlash: false, // ajoute cette ligne pour éviter l'ajout automatique d'un slash à la fin des URLs
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -42,11 +41,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -57,14 +56,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -88,9 +87,9 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner',
             label: 'GitHub',
             position: 'right',
           },
@@ -134,7 +133,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-github-org/your-repo',
+                href: 'https://github.com/MYK-OTAKU/Documentation-Digicard-Qr-Code-Scanner',
               },
             ],
           },
@@ -147,6 +146,5 @@ const config = {
       },
     }),
 };
-
 
 export default config;
