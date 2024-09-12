@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Analyse de Sécurité Intégrée',
-    Gif: require('@site/static/img/se.jpeg').default,
+    Gif: require('@site/static/img/00.webp').default,
     description: (
       <>
         Scannez vos QR codes en toute sécurité. DigiCard utilise l'API VirusTotal
